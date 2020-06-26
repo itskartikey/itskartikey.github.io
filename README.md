@@ -1,2 +1,2 @@
 # itskartikey.github.io
- It's a portfolio website maintained by @ Kartikey Mishra of @Kartikey Mishra.
+ It's a portfolio website of & maintained by @Kartikey Mishra.
