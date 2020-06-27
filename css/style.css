@@ -10,6 +10,7 @@ body{ padding-top:5em; font-family: 'Poppins', sans-serif;background-color: #000
 .headingAboutMe blockquote {color: white; padding-top: 1.5em;text-align: center;font-style: italic;font-size: 1.15em;}
 .skills{color: white; font-style: italic; text-align: center;padding-top: 2em;padding-bottom: 1.5em;}
 .card{  margin: 1em 1em 1em 2.7em;}
+.socialIcon{display:contents;}
 .footer{padding-top: 1em;padding-bottom: 1em;}
 .skillRow ion-icon {font-size: 232px;}
 .footer-text{text-align: center;color:black;padding-top: 0.5em;font-style: italic;}
