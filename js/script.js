@@ -7,3 +7,4 @@ $(window).on('click', function(event){
         $('button[aria-expanded="true"]').click();
     }
 });
+
