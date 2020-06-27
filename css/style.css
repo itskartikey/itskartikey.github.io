@@ -3,7 +3,7 @@ body{ padding-top:5em; font-family: 'Poppins', sans-serif;background-color: #000
 .nav-item a{ color:white; line-height: 2em;}
 .p-4 h5 { text-align: center;}
 .header{background-color: black;}
-.headerImage{ border-radius: 0.25em;  margin-left: auto; margin-right: auto; width: 100%;}
+.headerImage{ border-radius: 0.25em;  margin-left: auto; margin-right: auto; width: 100%; filter: grayscale(85%);}
 .headingAboutMe{border-radius: 0.6em;}
 .headingAboutMe h1{color: white; text-align: center; padding-top: 0.7em;}
 .headingAboutMe p {color: white; padding-top: 1.5em; text-align: justify;}
