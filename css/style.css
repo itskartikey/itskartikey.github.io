@@ -4,22 +4,66 @@ body{ padding-top:5em; font-family: 'Poppins', sans-serif;background-color: #000
 .p-4 h5 { text-align: center;}
 .header{background-color: black;}
 .headerImage{ border-radius: 0.25em;  margin-left: auto; margin-right: auto; width: 100%; filter: grayscale(85%);}
-.headingAboutMe{border-radius: 0.6em;}
+.headingAboutMe{border:1px solid white;}
 .headingAboutMe h1{color: white; text-align: center; padding-top: 0.7em;}
 .headingAboutMe p {color: white; padding-top: 1.5em; text-align: justify;}
 .headingAboutMe blockquote {color: white; padding-top: 1.5em;text-align: center;font-style: italic;font-size: 1.15em;}
 .skills{color: white; font-style: italic; text-align: center;padding-top: 2em;padding-bottom: 1.5em;}
-.card{  margin: 1em 1em 1em 2.7em;}
+.card{  margin: 1em 1em 1em 2.7em; width: 18rem;}
 .socialIcon{display:contents;}
-.footer{padding-top: 1em;padding-bottom: 1em;}
-.skillRow ion-icon {font-size: 232px;}
+.footer{padding-top: 0.8em;padding-bottom: 0.5em;}
+.skillRow ion-icon {font-size: 14em;}
 .footer-text{text-align: center;color:black;padding-top: 0.5em;font-style: italic;}
 .footer .footer-icon{font-size:32px;align-content: center; padding-left: 0.6em;filter: grayscale(85%);}
 .footer{background-color: white;border-top-right-radius: 0.5em;border-top-left-radius: 0.5em;}
-
 @media (max-width: 576px) { 
   .skillRow ion-icon {font-size: 160px;}
   .card-body{font-size: 160px;text-align: center;}
   .card{  margin: 1em 1em 1em 3.5em;}
+  .resume{margin-left: 5%;}
+  .headingAboutMe{border:0px;}
+}
+.resume{margin-left: 40%;}
+.headingImage{padding-top:2.5em;}
+.btn-secondary { background-color: #000000 !important;}
+.nav-item a{text-decoration: none;}
 
+.card {
+  position: relative;
+ 
+}
+
+.card-body {
+  display: block;
+  width: 100%;
+  height: auto;
+}
+
+.overlay {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  height: 100%;
+  width: 100%;
+  opacity: 0;
+  transition: .5s ease;
+  background-color: #000000;
+}
+
+.card:hover .overlay {
+  opacity: 0.94;
+}
+
+.text {
+  color: white;
+  font-size: 1.5em;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  -webkit-transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+  text-align: center;
 }
