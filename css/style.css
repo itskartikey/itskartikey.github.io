@@ -34,7 +34,7 @@ body{ padding-top:5em; font-family: 'Poppins', sans-serif;background-color: #000
 .card { position: relative;}
 
 .card-body {display: block;width: 100%; height: auto;}
-a{color:white;}
+
 .overlay {
   position: absolute;
   top: 0;
@@ -63,4 +63,3 @@ a{color:white;}
 }
 }
 
-a:hover{color:#ffffff;}
